@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+// 命名规范:
+// 1. 所有名字用驼峰来书写, 第一个字母大写(包名例外, 全部小写)
+// 2. Request 和 Reply 的参数名是 MethodName+"Request", MethodName+"Reply"
+
+// 生成 go 文件:
+//   go get -u github.com/golang/protobuf/proto/...
+//   go get -u github.com/golang/protobuf/protoc-gen-go/...
+
+// 2. 进入 *.proto 文件所在的目录执行下面的命令
+//   protoc --go_out=plugins=grpc:. *.proto
+
+import "google/protobuf/any.proto";
+
+package sms;
+
+service SmsService {
+    rpc Send (SendRequest) returns (SendReply); // 发送信息
+    rpc HelloWorld (HelloWorldRequest) returns (HelloWorldReply); // hellworld
+}
+
+message SendRequest {
+    int64 id = 1;
+    map<string, google.protobuf.Any> data = 2;
+}
+
+message SendReply {
+    string msg = 1;
+}
+
+// 定义枚举变量, 必须从0开始
+enum ItemType {
+    Int32Type = 0;
+    StrType = 1;
+    FloatType = 2;
+}
+
+message HelloWorldItem {
+    int32 id = 1;
+    string name = 2;
+    ItemType type = 3;
+}
+
+message HelloWorldRequest {
+    map<string, string> data = 1;
+    repeated HelloWorldItem items = 2;
+}
+
+message HelloWorldReply {
+    string msg = 1;
+}

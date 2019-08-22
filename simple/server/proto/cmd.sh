@@ -13,6 +13,4 @@
 
 protoc --go_out=plugins=grpc:. *.proto
 
-sed -i "" "s/TODO: replace this with your service name//g" *.pb.go
-
 sed -i "" "s/,omitempty//g" *.pb.go
