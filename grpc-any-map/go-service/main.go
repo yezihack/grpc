@@ -22,7 +22,7 @@ func main() {
 	}
 	g := grpc.NewServer()
 	s := new(services.SmsService)
-	log.Printf("start service port : %s\n", port)
+	log.Printf("start service port%s\n", port)
 	sms.RegisterSmsServiceServer(g, s)
 	if err = g.Serve(lst); err != nil {
 		log.Fatalln(err)

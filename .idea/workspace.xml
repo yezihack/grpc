@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e63809e9-9539-4451-b939-7398a9d58eb7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/client/app/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/simple/client/app/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/server/app/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/simple/server/app/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/server/proto/chat.proto" beforeDir="false" afterPath="$PROJECT_DIR$/simple/server/proto/chat.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/server/proto/cmd.sh" beforeDir="false" afterPath="$PROJECT_DIR$/simple/server/proto/cmd.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/server/sh/chat_service" beforeDir="false" afterPath="$PROJECT_DIR$/simple/server/sh/chat_service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-any-map/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-any-map/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-any-map/go-service/services/sms.go" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-any-map/go-service/services/sms.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-any-map/php-client/output/App/Grpc/Sms/SmsServiceClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-any-map/php-client/output/App/Grpc/Sms/SmsServiceClient.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grpc-any-map/php-client/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
+            <state relative-caret-position="313">
               <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
             </state>
           </provider>
@@ -183,12 +181,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566463574410</updated>
-      <workItem from="1566463575890" duration="1532000" />
+      <workItem from="1566463575890" duration="1867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1532000" />
+    <option name="totallyTimeSpent" value="1867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="23" width="2514" height="1417" extended-state="6" />
@@ -252,7 +250,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grpc-any-map/php-client/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
+        <state relative-caret-position="313">
           <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
         </state>
       </provider>

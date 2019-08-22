@@ -41,5 +41,4 @@ class SmsServiceClient extends \Grpc\BaseStub {
         ['\App\Grpc\Sms\HelloWorldReply', 'decode'],
         $metadata, $options);
     }
-
 }

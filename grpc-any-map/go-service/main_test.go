@@ -61,3 +61,28 @@ func TestSend(t *testing.T) {
 	}
 	println(reply)
 }
+
+func TestHelloWorld(t *testing.T) {
+	conn, err := grpc.Dial(address, grpc.WithInsecure())
+	if err != nil {
+		t.Error(err)
+	}
+	defer conn.Close()
+	client := sms.NewSmsServiceClient(conn)
+	ctx, cancel := context.WithTimeout(context.Background(), time.Second*3)
+	defer cancel()
+	req := new(sms.HelloWorldRequest)
+	req.Data = make(map[string]string)
+
+	req.Data["golang"] = "php"
+	req.Items = append(req.Items, &sms.HelloWorldItem{
+		Id:   100,
+		Name: "hello world",
+		Type: sms.ItemType_Int32Type,
+	})
+	reply, err := client.HelloWorld(ctx, req)
+	if err != nil {
+		t.Error(err)
+	}
+	t.Log(reply.Msg)
+}
