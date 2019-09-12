@@ -1,7 +1,6 @@
-.idea/
+.idea
 .svn
 .DS_Store
 Desktop.ini
-
 
 vendor/
