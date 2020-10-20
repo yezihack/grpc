@@ -4,5 +4,5 @@
 ![](asset/golang_grpc.png)
 
 ## 多种实现
-1. [golang简单实现服务端与客户端](simple/READMD.md)
-1. [PHP调用GRPC的any, map类型方法](grpc-any-map/README.md)
+1. [golang简单实现服务端与客户端](https://github.com/yezihack/grpc/tree/master/simple)
+1. [PHP调用GRPC的any, map类型方法](https://github.com/yezihack/grpc/tree/master/grpc-any-map)
