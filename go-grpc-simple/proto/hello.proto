@@ -1,0 +1,34 @@
+// 选择 proto3 语法
+syntax = "proto3"; 
+
+// 定义一个包名
+package hello;
+
+// 定义一个 service 服务，相当于 GO 接口定义
+service HelloService {
+    // 以 rpc 开头，定义未实现的方法名称。 必须要有一个请求 message 和响应 message
+    // rpc, returns 都是关键字
+    rpc Hello(StringRequest) returns (StringResponse){}; 
+}
+
+// message 相当于一个结构体，里面定义字段属性， 先类型后变量名，然后序列号。
+// protoful 编码是通过成员的唯一编号来绑定对应的数据。
+
+// 定义一个请求结构体
+message StringRequest {
+    string value = 1;
+} 
+// 定义一个响应结构体
+message StringResponse {
+    string result = 1;
+}
+
+// 如何生成 go 代码呢？
+// 下载 protoc 插件(选择不同系统版本下载) https://github.com/protocolbuffers/protobuf/releases
+
+// 安装 golang 的proto工具包
+// go get -u github.com/golang/protobuf/proto
+// 安装 goalng 的proto编译支持
+// go get -u github.com/golang/protobuf/protoc-gen-go
+// 安装 GRPC 包
+// go get -u google.golang.org/grpc
