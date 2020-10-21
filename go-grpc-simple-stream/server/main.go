@@ -24,14 +24,15 @@ func (h *HelloServiceImpl) ServerToClient(req *hello.StreamRequest, server hello
 	var i int
 	for {
 		// 打印接受客户端的消息
-		log.Printf("接受到客户端的消息:%s\n", req.GetData())
+		log.Printf("单向流.接受客户端的消息:%s\n", req.GetData())
 		// 向客户端发送消息
-		err := server.Send(&hello.StreamResponse{Data: fmt.Sprintf("来自服务器<server>, %s", time.Now().Format("2006-01-02 15:04:05"))})
+		err := server.Send(&hello.StreamResponse{Data: fmt.Sprintf("%d 单向流.%s", i, time.Now().Format("15:04:05"))})
 		if err != nil {
 			break
 		}
 		i ++
-		if i > 10 {
+		if i > 3 {
+			server.Send(&hello.StreamResponse{Data: "单向流.服务端推送完啦"})
 			break
 		}
 		time.Sleep(time.Second)
@@ -51,10 +52,10 @@ func (h *HelloServiceImpl) ClientToServer(server hello.HelloService_ClientToServ
 			}
 			return err
 		}
-		log.Printf("接受到客户端的消息:%s", data.GetData())
+		log.Printf("单向流.接受到客户端的消息:%s", data.GetData())
 	}
 	err := server.SendAndClose(&hello.StreamResponse{
-		Data: "接受完毕",
+		Data: "单向流.接受客户端消息完毕",
 	})
 	if err != nil {
 		return err
@@ -72,7 +73,7 @@ func (h *HelloServiceImpl) AllStream(server hello.HelloService_AllStreamServer) 
 		i := 0
 		for {
 			err := server.Send(&hello.StreamResponse{
-				Data: fmt.Sprintf("%d,来自双向流的服务端:%s\n",i, time.Now().Format("2006-01-02 15:04:05")),
+				Data: fmt.Sprintf("%d,来自双向流的服务端:%s",i, time.Now().Format("2006-01-02 15:04:05")),
 			})
 			if err != nil {
 				break

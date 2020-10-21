@@ -23,8 +23,11 @@ func main() {
 	}
 	defer conn.Close()
 	client := hello.NewHelloServiceClient(conn)
-	//GetServerStream(client)
-	//PutServerStream(client)
+	// 获取服务端向客户端不断推送的数据流。
+	GetServerStream(client)
+	// 客户端不断的向服务器推送单向流
+	PutServerStream(client)
+	// 双向流
 	AllStream(client)
 }
 // 双向流
@@ -55,7 +58,7 @@ func AllStream(client hello.HelloServiceClient) {
 		i := 0
 		for {
 			err = all.Send(&hello.StreamRequest{
-				Data: fmt.Sprintf("%d. 来自客户端:%s\n", i, time.Now().Format("15:04:05")),
+				Data: fmt.Sprintf("%d,%s", i, time.Now().Format("15:04:05")),
 			})
 			if err != nil {
 				log.Println(err)
@@ -80,7 +83,7 @@ func PutServerStream(client hello.HelloServiceClient) {
 	}
 	for {
 		err = put.Send(&hello.StreamRequest{
-			Data: fmt.Sprintf("%d.来自客户端<client>，%s", i, time.Now().Format("2006-01-02 15:04:05")),
+			Data: fmt.Sprintf("%d,%s", i, time.Now().Format("15:04:05")),
 		})
 		if err != nil {
 			break
@@ -104,7 +107,6 @@ func PutServerStream(client hello.HelloServiceClient) {
 	}
 
 }
-
 // 获取服务端向客户端不断推送的数据流。
 func GetServerStream(client hello.HelloServiceClient) {
 	// 向服务器发一个数据标识
