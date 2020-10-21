@@ -3,10 +3,10 @@ syntax = "proto3";
 package hello;
 
 service HelloService {
-  //  定义一个客户端推送服务端的单向流
-  rpc ClientToServer(StreamRequest) returns (stream StreamResponse){};
-  //　定义一个服务端推送客户的单向流
-  rpc ServerToClient(stream StreamRequest) returns (StreamResponse){};
+  //  定义一个服务端推送客户的单向流
+  rpc ServerToClient(StreamRequest) returns (stream StreamResponse){};
+  //　定义一个客户端推送服务端的单向流
+  rpc ClientToServer(stream StreamRequest) returns (StreamResponse){};
   //  定义一个服务端与客户端的双向流
   rpc AllStream(stream StreamRequest) returns (stream StreamResponse){};
 }
