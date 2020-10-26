@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e63809e9-9539-4451-b939-7398a9d58eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go-micro-simple/01.web-gin/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/client/get-server-address.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/client/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/middleware/micro-middleware.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/proto/api.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/proto/api.pb.micro.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/proto/api.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/proto/gen.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/server/api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/server/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/server/server" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-simple/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-simple/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-study/01.web/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-study/02.web-gin/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-study/03.web-gin-etcd/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-study/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-study/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro/client/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro/proto/gen.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro/proto/hello.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro/proto/hello.pb.micro.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro/proto/hello.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro/server/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-study/04.get-etcd-node/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-study/04.get-etcd-node/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-study/04.get-etcd-node/reg.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-study/04.get-etcd-node/register.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-grpc-simple-stream/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-grpc-simple-stream/server/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-micro-study/03.web-gin-etcd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-micro-study/03.web-gin-etcd/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +60,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
-  <component name="RunManager" selected="Go Build.go build go-micro-study/03.web-gin-etcd">
+  <component name="RunManager" selected="Go Build.go build go-micro-study/04.get-etcd-node">
     <configuration name="go build go-micro-simple/02.grpc-etcd/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="grpc" />
       <working_directory value="$PROJECT_DIR$/go-micro-simple" />
@@ -120,8 +97,18 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go-micro-study/04.get-etcd-node" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="grpc" />
+      <working_directory value="$PROJECT_DIR$/go-micro-study" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/go-micro-study/04.get-etcd-node/main.go" />
+      <package value="go-micro-study/04.get-etcd-node" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-micro-study/04.get-etcd-node" />
         <item itemvalue="Go Build.go build go-micro-study/03.web-gin-etcd" />
         <item itemvalue="Go Build.go build go-micro-study/02.web-gin" />
         <item itemvalue="Go Build.go build go-micro-study/01.web" />
@@ -165,22 +152,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="831" y="350" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603703100340" />
-    <state width="1869" height="268" key="GridCell.Tab.0.bottom" timestamp="1603715064594">
+    <state width="1869" height="268" key="GridCell.Tab.0.bottom" timestamp="1603715679715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603715064594" />
-    <state width="1869" height="268" key="GridCell.Tab.0.center" timestamp="1603715064593">
+    <state width="1869" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603715679715" />
+    <state width="1869" height="268" key="GridCell.Tab.0.center" timestamp="1603715679714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603715064593" />
-    <state width="1869" height="268" key="GridCell.Tab.0.left" timestamp="1603715064593">
+    <state width="1869" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603715679714" />
+    <state width="1869" height="268" key="GridCell.Tab.0.left" timestamp="1603715679714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603715064593" />
-    <state width="1869" height="268" key="GridCell.Tab.0.right" timestamp="1603715064593">
+    <state width="1869" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603715679714" />
+    <state width="1869" height="268" key="GridCell.Tab.0.right" timestamp="1603715679715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603715064593" />
+    <state width="1869" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603715679715" />
     <state x="344" y="78" key="SettingsEditor" timestamp="1603705934302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

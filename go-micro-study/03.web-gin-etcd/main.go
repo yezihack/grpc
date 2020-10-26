@@ -29,6 +29,7 @@ func main() {
 		web.Handler(r),                    // 将 gin　句柄注册到 go-micro 服务里
 		web.Address(":8000"),              // 开外一个对外端口
 	)
+	// 启动服务
 	if err := service.Run(); err != nil {
 		log.Fatal(err)
 	}
