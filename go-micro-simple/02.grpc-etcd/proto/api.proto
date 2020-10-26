@@ -1,0 +1,14 @@
+syntax="proto3";
+
+package proto.api;
+
+service ApiService {
+  rpc GetName(GetNameRequest) returns (GetNameResponse){};
+}
+message GetNameRequest {
+  string first_name = 1;
+  string last_name = 2;
+}
+message GetNameResponse {
+  string result = 1;
+}

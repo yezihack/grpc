@@ -1,172 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e63809e9-9539-4451-b939-7398a9d58eb7" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="e63809e9-9539-4451-b939-7398a9d58eb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/go-micro-simple/01.web-gin/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/client/get-server-address.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/middleware/micro-middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/proto/api.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/proto/api.pb.micro.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/proto/api.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/proto/gen.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/server/api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/server/server" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-simple/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-simple/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-study/01.web/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-study/02.web-gin/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-study/03.web-gin-etcd/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-study/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-study/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro/client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro/proto/gen.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro/proto/hello.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro/proto/hello.pb.micro.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro/proto/hello.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro/server/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-grpc-simple-stream/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-grpc-simple-stream/server/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1857388373">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="json" value="1" />
-          <entry key="php" value="692" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JSON" value="1" />
-          <entry key="PHP" value="692" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="json" value="1" />
-          <entry key="php" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JSON" value="1" />
-          <entry key="PHP" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grpc-any-map/php-client/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grpc-any-map/php-client/output/App/Grpc/Sms/SendRequest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grpc-any-map/php-client/output/GPBMetadata/ProtoFiles/Sms.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grpc-any-map/php-client/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grpc-any-map/php-client/vendor/grpc/grpc/src/lib/UnaryCall.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="842">
-              <caret line="70" column="43" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="$PROJECT_DIR$/grpc-any-map/php-client/index.php" />
-        <option value="$PROJECT_DIR$/grpc-any-map/php-client/composer.json" />
+        <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="34" />
-    <option name="y" value="23" />
-    <option name="width" value="1406" />
-    <option name="height" value="877" />
+  <component name="ProjectId" id="1jPPj3k2SFrZUZmwF5LrIdqOiB4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="grpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grpc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grpc" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-any-map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grpc" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-any-map" type="462c0819:PsiDirectoryNode" />
-              <item name="php-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager" selected="Go Build.go build go-micro-study/03.web-gin-etcd">
+    <configuration name="go build go-micro-simple/02.grpc-etcd/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="grpc" />
+      <working_directory value="$PROJECT_DIR$/go-micro-simple" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/go-micro-simple/02.grpc-etcd/client/main.go" />
+      <package value="go-micro-simple/02.grpc-etcd/client" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-micro-study/01.web" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="grpc" />
+      <working_directory value="$PROJECT_DIR$/go-micro-study" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/go-micro-study/01.web/main.go" />
+      <package value="go-micro-study/01.web" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-micro-study/02.web-gin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="grpc" />
+      <working_directory value="$PROJECT_DIR$/go-micro-study" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/go-micro-study/02.web-gin/main.go" />
+      <package value="go-micro-study/02.web-gin" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-micro-study/03.web-gin-etcd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="grpc" />
+      <working_directory value="$PROJECT_DIR$/go-micro-study" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/go-micro-study/03.web-gin-etcd/main.go" />
+      <package value="go-micro-study/03.web-gin-etcd" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Go Build.go build go-micro-study/03.web-gin-etcd" />
+        <item itemvalue="Go Build.go build go-micro-study/02.web-gin" />
+        <item itemvalue="Go Build.go build go-micro-study/01.web" />
+        <item itemvalue="Go Build.go build go-micro-simple/02.grpc-etcd/client" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -184,71 +147,43 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="3005000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="46" y="23" width="1394" height="877" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4571006" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5566879" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grpc-any-map/php-client/vendor/grpc/grpc/src/lib/UnaryCall.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="70" column="43" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-any-map/php-client/output/App/Grpc/Sms/SendRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-any-map/php-client/output/GPBMetadata/ProtoFiles/Sms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-any-map/php-client/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-any-map/php-client/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="545" y="249" key="EditFileWatcherDialog" timestamp="1603705933069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="545" y="249" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603705933069" />
+    <state x="831" y="350" key="EnvironmentVariablesDialog" timestamp="1603703100340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="831" y="350" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603703100340" />
+    <state width="1869" height="268" key="GridCell.Tab.0.bottom" timestamp="1603715064594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603715064594" />
+    <state width="1869" height="268" key="GridCell.Tab.0.center" timestamp="1603715064593">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603715064593" />
+    <state width="1869" height="268" key="GridCell.Tab.0.left" timestamp="1603715064593">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603715064593" />
+    <state width="1869" height="268" key="GridCell.Tab.0.right" timestamp="1603715064593">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603715064593" />
+    <state x="344" y="78" key="SettingsEditor" timestamp="1603705934302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="344" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603705934302" />
   </component>
 </project>

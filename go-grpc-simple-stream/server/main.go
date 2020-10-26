@@ -105,12 +105,16 @@ func (h *HelloServiceImpl) AllStream(server hello.HelloService_AllStreamServer) 
 
 func main() {
 	log.SetFlags(log.Lshortfile|log.LstdFlags)
+	// 构造一个 gRPC 服务对象
 	grpcServer := grpc.NewServer()
+	// 然后使用 protoc 工具生成的 go 代码函数(RegisterHelloServiceServer)  注册我们实现的 HelloServiceImpl 服务
 	hello.RegisterHelloServiceServer(grpcServer, new(HelloServiceImpl))
+	// 通过 grpcServer.Serve 在一个监听端口上提供 gRPC 服务
 	lis, err := net.Listen("tcp", Addr)
 	if err != nil {
 		log.Fatal(err)
 	}
+	// 打印一下运行时的进程ID和地址
 	go func() {
 		log.Printf("PID:%d, %s\n", os.Getpid(), Addr)
 	}()
@@ -118,7 +122,6 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
 }
 
 
