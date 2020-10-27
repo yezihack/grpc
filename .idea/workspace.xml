@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e63809e9-9539-4451-b939-7398a9d58eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go-micro-study/04.get-etcd-node/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-study/04.get-etcd-node/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-study/04.get-etcd-node/reg.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-micro-study/04.get-etcd-node/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-study/05.web-gin-etcd-call/client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-study/05.web-gin-etcd-call/server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-study/06.grpc-server-client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-study/06.grpc-server-client/proto/gen.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-micro-study/06.grpc-server-client/proto/greeter.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-micro-study/03.web-gin-etcd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-micro-study/03.web-gin-etcd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-micro-study/04.get-etcd-node/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-micro-study/04.get-etcd-node/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-micro-study/04.get-etcd-node/reg.sh" beforeDir="false" afterPath="$PROJECT_DIR$/go-micro-study/05.web-gin-etcd-call/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-micro-study/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go-micro-study/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-micro-study/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go-micro-study/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +63,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gopath\src\github.com\yezihack\grpc\go-micro-study\06.grpc-web\grpc-server\proto" />
+    </key>
   </component>
   <component name="RunManager" selected="Go Build.go build go-micro-study/04.get-etcd-node">
     <configuration name="go build go-micro-simple/02.grpc-etcd/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -137,9 +146,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -152,25 +158,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="831" y="350" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603703100340" />
-    <state width="1869" height="268" key="GridCell.Tab.0.bottom" timestamp="1603715679715">
+    <state width="1869" height="268" key="GridCell.Tab.0.bottom" timestamp="1603791737222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603715679715" />
-    <state width="1869" height="268" key="GridCell.Tab.0.center" timestamp="1603715679714">
+    <state width="1869" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603791737222" />
+    <state width="1869" height="268" key="GridCell.Tab.0.center" timestamp="1603791737222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603715679714" />
-    <state width="1869" height="268" key="GridCell.Tab.0.left" timestamp="1603715679714">
+    <state width="1869" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603791737222" />
+    <state width="1869" height="268" key="GridCell.Tab.0.left" timestamp="1603791737221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603715679714" />
-    <state width="1869" height="268" key="GridCell.Tab.0.right" timestamp="1603715679715">
+    <state width="1869" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603791737221" />
+    <state width="1869" height="268" key="GridCell.Tab.0.right" timestamp="1603791737222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603715679715" />
+    <state width="1869" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603791737222" />
     <state x="344" y="78" key="SettingsEditor" timestamp="1603705934302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="344" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603705934302" />
+    <state x="677" y="416" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603790445590">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="416" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603790445590" />
   </component>
 </project>
